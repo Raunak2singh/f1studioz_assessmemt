@@ -1,0 +1,79 @@
+
+.DesktopVeiw{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.TabletmobileVeiw{
+    display: none;
+}
+
+.TableSectionChanger{
+    minHeight: 77px;
+    display: flex;
+    border-bottom:1px solid #DBDBDC;
+    justify-content:left;
+    align-items: center;
+}
+
+.TableButtonClassName{
+    color:#34495E;
+    background: none;
+    border: none;
+    // borderBottom: (a === data[Change] )?"3px solid #34495E":"0px",
+    borderRadius: 0px;
+    width:186px;
+    zIndex:0;
+    textTransform:capitalize;
+    fontSize:16px;
+    fontWeight:700,
+}
+
+.TabHeader{
+    display: block;
+}
+.MobHeader{
+    display: none;
+}
+//sm
+@media (max-width:575px){
+    .DesktopVeiw{
+        display: none;
+    }
+    .TabletmobileVeiw{
+        display: block;
+    }
+
+    .TabHeader{
+        display: none;
+    }
+    .MobHeader{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+//md
+@media (max-width:769px){
+    .DesktopVeiw{
+        display: none;
+    }
+    .TabletmobileVeiw{
+        display: block;
+    }
+    
+ 
+    
+}
+
+//lg
+@media (max-width:992px){
+   
+}
+
+// xl
+@media (max-width:1200px){
+   
+}
+

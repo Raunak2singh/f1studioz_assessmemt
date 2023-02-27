@@ -1,0 +1,48 @@
+
+.Navbar{
+      background: #000000;
+      gap:42px;
+      zIndex:1
+}
+
+.avatrAndQuestinIcon{
+    display:flex;
+    align-items:center;
+    gap:42px,
+}
+
+.MobileBar{
+    display:none;
+}
+//sm
+@media (max-width:575px){
+
+    .Navbar{
+        background: #000000;
+        gap:20px;
+        z-index:1
+  }
+  .avatrAndQuestinIcon{
+    display:none;
+  }
+  .MobileBar{
+    display: block;
+  }
+  
+}
+
+//md
+@media (max-width:768px){
+    
+}
+
+//lg
+@media (max-width:992px){
+    
+}
+
+// xl
+@media (max-width:1200px){
+    
+}
+

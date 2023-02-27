@@ -1,0 +1,35 @@
+.FlexDesktop{
+    display: block;
+}
+.FlexMob{
+    display: none;
+}
+//sm
+@media (max-width:575px){
+    .FlexDesktop{
+        display: none;
+    }
+    .FlexMob{
+        display: flex;
+    }
+}
+
+
+//md
+@media (max-width:769px){
+
+}
+
+
+
+//lg
+@media (max-width:992px){
+ 
+}
+
+// xl
+@media (max-width:1200px){
+
+   
+}
+

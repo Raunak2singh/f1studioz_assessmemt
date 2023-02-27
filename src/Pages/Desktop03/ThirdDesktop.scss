@@ -1,0 +1,79 @@
+.Cardclass{
+    width: 928px; 
+
+}
+.CardBodyClass{
+        padding: 20px 100px;
+        display: flex;
+        color: #34495E;
+        flex-direction: column;
+        gap: 20px;
+}
+
+
+.ConfigureBtn{
+    background-color: #66332B;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    width: 115px;
+    border:none;
+    text-transform: uppercase;
+
+}
+
+
+//sm
+@media (max-width:575px){
+    .CardBodyClass{
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Cardclass{
+        width: 928px; 
+        min-height: fit-content;
+    }
+    .ConfigureBtn{
+        background-color: #66332B;
+        border-radius: 4px;
+        color: white;
+        font-size: 12px;
+        width: 100%;
+        border:none;
+        text-transform: uppercase;
+    
+    }
+
+}
+
+
+//md
+@media (max-width:769px){
+    .CardBodyClass{
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        }
+    .Cardclass{
+        width: 928px; 
+        min-height: fit-content;
+        }
+   
+}
+
+
+
+//lg
+@media (max-width:992px){
+ 
+}
+
+// xl
+@media (max-width:1200px){
+
+   
+}
+

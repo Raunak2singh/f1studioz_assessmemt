@@ -1,0 +1,197 @@
+.MainContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;        
+}
+
+.mainBody{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 928px;
+    padding:10px 0px;
+    padding-bottom: 200px;
+}
+
+
+.TopCard-Title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #34495E;
+    width: 85%;
+}
+.topCardButtons{
+    display: flex;
+
+}
+
+.topCardButtonsforTAb{
+    display: none;
+}
+
+.DesktopIncDecbtn{
+   display: flex; 
+}
+
+.TopIncbtn{
+    display: flex;
+    gap:10px;
+}
+
+.bottomIncbtn{
+    display: none;
+    gap:10px;
+ }
+
+.forMobileviewToken{
+    text-align: center;
+}
+
+.forMobileviewPrice{
+    text-align: center;
+ }
+
+ .TopCardRow{
+    padding: 20px 0px; 
+    align-items: center;
+ }
+
+
+ .OnmbileViewHide{
+    display: block;
+ }
+
+ .centerCardRow{
+    gap:0px
+ }
+
+
+
+
+.inputDatePicker{
+    border:1px solid #b8c0c8   ;
+    color: #8894A0;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.checkBox{
+   border:1px solid #5e3455;
+}
+.rate{
+    display:flex;
+    flex-direction: column;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+cursor: pointer;
+border-radius: 4px;
+margin-right: 2px;
+filter: invert(0.6) sepia(0%) saturate(100%) hue-rotate(240deg);
+}
+
+
+// sm
+@media (max-width:575px){
+    .TopCard-Title{
+        font-size: 15px;
+        font-weight: 700;
+        color: #34495E;
+        width: 100%;
+        
+    }
+   
+    .topCardButtons{
+        display: none;
+    
+    }
+
+
+    .topCardButtonsforTAb{
+        display: flex;
+    }
+    
+    .DesktopIncDecbtn{
+        display: none; 
+     }
+    
+     .TopIncbtn{
+        display: none;
+     }
+
+     .bottomIncbtn{
+        display: flex;
+     }
+
+     .forMobileview{
+        text-align: center;
+     }
+
+     .forMobileviewToken{
+        text-align: left;
+    }
+    
+    .TopCardRow{
+        align-items:baseline;
+     }
+
+     
+     .OnmbileViewHide{
+        display: none;
+     }
+
+     .centerCardRow{
+        gap:10px
+     }
+     .rate{
+        display:none
+    }
+    
+    
+}
+
+
+
+
+//md
+@media (max-width:769px){
+   
+    .topCardButtons{
+        display: none;
+    
+    }
+    .topCardButtonsforTAb{
+        display: flex;
+    }
+
+     .forMobileview{
+        text-align: left;
+     }
+     .OnmbileViewHide{
+        display: none;
+     }
+     .centerCardRow{
+        gap:10px
+     }
+}
+
+
+
+//lg
+
+@media (max-width:992px){
+ 
+}
+
+// xl
+@media (max-width:1200px){
+
+   
+}
+
